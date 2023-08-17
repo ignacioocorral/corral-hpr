@@ -1,4 +1,4 @@
-# **HPR**
+# **CORRAL-HPR**
 ### *una marca especializada*
 #### ***HPR es una marca especializada en venta y reparaciones de componentes para cuatriciclos y motos de competicon, tambien se encarga de reparar y dejar en perfecto estado todos los trabajos que se realicen.***
 
