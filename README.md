@@ -15,9 +15,9 @@
 ### La tipógrafía a utilizar será [Raleway](https://fonts.google.com/specimen/Raleway)
 
 ### Paleta de colores:
-![Paleta] https://color.adobe.com/es/mythemes?viewTheme
+ https://color.adobe.com/es/mythemes?viewTheme
 
 
 ### Logo
- ![Logo] file:///C:/Users/nachc/OneDrive/Escritorio/hpr/assets/img/cara-hpr.jpeg
+ file:///C:/Users/nachc/OneDrive/Escritorio/hpr/assets/img/cara-hpr.jpeg
  
