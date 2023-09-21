@@ -20,4 +20,8 @@
 
 ### Logo
  file:///C:/Users/nachc/OneDrive/Escritorio/hpr/assets/img/cara-hpr.jpeg
+
+
+ ### figma 
+ https://www.figma.com/file/w7QA6PRZPp2DJRx7jtyIEK/Untitled?type=design&node-id=0%3A1&mode=design&t=L0TJphcNaxpMArwl-1
  
