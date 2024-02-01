@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="shortcut icon" href="./assets/imagenes/cara-hannibal.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imagenes/cara hanni.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -25,29 +25,28 @@
     </article>
     </header>
     <main>
-        <div class="f1">
-        <form action="/" method="post">
-            <label for="name">nombre:</label><br>
-            <input type="text" id="name" name="name" placeholder="ignacio"><br><br>
-            <label for="lname">apellido:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="corral"><br><br>
-            <label for="lname">fecha de nacimiento</label><br>
-            <input type="date" id="lname" name="lname" value="escribir"><br><br>
-            <label for="lname">correo electronico:</label><br>
-            <input type="email" id="lname" name="lname" placeholder="name@gmail.com"><br><br>
-            <label for="lname">contraseña:</label><br>
-            <input type="password" id="lname" name="lname" value="escribir"><br><br>
-            <label for="lname">telefono:</label><br>
-            <input type="number" id="lname" name="lname"  inputmode="numeric" pattern="[0-9]*" placeholder="123456789" /><br><br>
-            <label for="lname">direccion:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="moreno 2340"><br><br>
-            <label for="lname">codigo postal:</label><br>
-            <input type="number" id="lname" name="lname" inputmode="numeric" pattern="[0-9]*" placeholder="12345" /><br><br>
-            <label for="lname"> terminos y condiciones</label><br>
-            <input type="checkbox" id="lname" name="lname"><br><br>
-            <button type="submit">enviar</button> 
-        </form><br><br>
-        </div>
+        <h2>Registro de Usuario</h2>
+        <form id="registroForm">
+            <label for="fullName">Nombre Completo:</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Ignacio Corral"><br><br>
+    
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="nombre@gmail.com"><br><br>
+    
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" placeholder="Escriba su contraseña"><br><br>
+            
+            <label for="phone">Teléfono:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="123456789"><br><br>
+    
+            <label for="address">Dirección:</label><br>
+            <input type="text" id="address" name="address" placeholder="Moreno 2340"><br><br>
+    
+            <label for="postalCode">Código Postal:</label><br>
+            <input type="number" id="postalCode" name="postalCode" placeholder="12345"><br><br>
+    
+            <button type="button" onclick="registrarUsuario()">Registrarse</button>
+        </form>
     </main>
     <footer>
         <section class="pie">
@@ -85,5 +84,8 @@
             </section>
         </section>
     </footer>
+    
+    
+    <script src="../back end/usuario/registro.js"></script>
 </body>
 </html>

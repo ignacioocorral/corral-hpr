@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPR</title>
+    <link rel="shortcut icon" href="./assets/imagenes/cara hanni.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue static-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/imagenes/Sin título-1.png" class="rounded" alt="logo" height="70">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">menu 
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="./pages/amortiguadores.html">amortiguadores</a></li>
+                <li><a href="./registro.html">chasis</a></li>
+                <li><a href="./registro.html">suspension</a></li>
+                <li><a href="./registro.html">T.especiales</a></li>
+                <li><a href="./registro.html">repuestos</a></li>
+                <li><a href="./registro.html">clientes</a></li>
+            </ul>
+        </div> 
+        
+        <section class="contenido">
+            <div class="mostrador" id="mostrador">
+                <div class="fila">
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+
+                    <div class="item" onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                            <img src="./assets/imagenes/amortiguador azul.jpg" width="80px" alt="amortiguador">
+                            <p class="descripcion"> amortiguador HPR</p>
+                            <span class="precio"> $1000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seleccion" id="seleccion">
+                <div class="carrera" onclick="cerrar()">
+                    HPR
+                </div>
+                <div class="info">
+                    <img src="./assets/imagenes/amortiguador azul.jpg" width="180px" height="15px" alt="amortiguador" id="img">
+                    <h2 id="modelo">amortiguador HPR</h2>   
+                    <P id="descripcion">amortiguador listo para instalar</P>
+                    <span class="precio">$1000</span>
+
+                    <div class="fila">
+                        <div class="size">
+                            <label for="">size</label>
+                            <select name="" id="">
+                                <option value="">rojo</option>
+                                <option value="">azul</option>
+                                <option value="">negro</option>
+                                <option value="">blanco</option>
+                            </select>
+                        </div>
+                        <button>AGREGAR AL CARRITO</button>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="pie">
+            <section>
+                <ul class="pie-izquierdo">
+                    <li><a href="https://www.facebook.com/" target="_blank">
+                        <img src="./assets/imagenes/facebook (1).png" width="45px" height="45px" alt="facebook">
+                        </a>
+                    </li>   
+                    <li><a href="https://www.instagram.com/"target="_blank">
+                        <img src="./assets/imagenes/instagram.png" width="45px" height="45px" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul class="pie-medio">
+                    <li><a href="https://www.google.com/maps/@-37.9978483,-57.5438848,14z?hl=es"target="_blank">
+                        <img src="./assets/imagenes/ubicacion.png" width="45px" height="45px" alt="google maps">
+                        </a>
+                    </li>
+                </ul>        
+            </section>
+            <section>
+                <ul class="pie-pagina">
+                    <li><a href="https://web.whatsapp.com/"target="_blank">
+                        <img src="./assets/imagenes/whatsapp.png" width="45px" height="45px" alt="whatsapp">
+                        </a>
+                    </li>        
+                    <li><a href="https://www.google.com/intl/es-419/gmail/about/"target="_blank">
+                        <img src="./assets/imagenes/correo-electronico-vacio.png" width="45px" height="45px" alt="email">
+                        </a>
+                    </li>
+                </ul>        
+            </section>
+        </section>
+    </footer>
+    <script src="../back end/carrito/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
